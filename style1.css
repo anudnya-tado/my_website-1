@@ -1,0 +1,93 @@
+/* Colors:
+  Green: #4CAF50
+  Brown: #6F4E37
+  Skin: #FCEBD5
+  Grey: #EEEEEE
+  Black: #222
+*/
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #FCEBD5; /* skin */
+  color: #222; /* black */
+}
+
+header {
+  background-color: #6F4E37; /* brown */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #EEEEEE; /* grey */
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero h2 {
+  color: #4CAF50; /* green */
+}
+
+.hero button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.menu {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.menu h2 {
+  text-align: center;
+  color: #6F4E37;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.item {
+  background-color: #EEEEEE;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+}
+
+footer {
+  background-color: #222; /* black */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
