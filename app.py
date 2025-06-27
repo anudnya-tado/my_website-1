@@ -12,7 +12,7 @@ users = db['users']  # Make sure your collection is named 'users'
 
 @app.route('/')
 def home():
-    return render_template('index1.html')  # Make sure this file is in the templates folder
+    return render_template('index1.html') # Make sure this file is in the templates folder
 
 @app.route('/login', methods=['POST'])
 def login():
