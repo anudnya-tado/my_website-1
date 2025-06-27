@@ -1,3 +1,1 @@
-function orderNow() {
-  alert("Thank you for ordering from Coffee Café!");
-}
+console.log("Login page script loaded");
