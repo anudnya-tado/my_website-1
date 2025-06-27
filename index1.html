@@ -1,25 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Coffee Café</title>
-  <link rel="stylesheet" href="style.css"/>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
 </head>
 <body>
-  <header>
-    <h1>Coffee Café</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <h2>Login</h2>
+    <form action="/login" method="POST">
+        <input type="text" name="username" placeholder="Username" required><br><br>
+        <input type="password" name="password" placeholder="Password" required><br><br>
+        <button type="submit">Login</button>
+    </form>
+    <script src="{{ url_for('static', filename='script1.js') }}"></script>
+</body>
+</html>
 
-  <section class="hero">
-    <h2>Welcome to Our Cozy Café</h2>
-    <p>Freshly brewed coffee, warm ambiance, and delightful treats.</p>
-    <button onclick=
